@@ -81,7 +81,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 |All bold and italic   |`*** ***`         |`***All this text is important***`      |_**All this text is important**_      |
 |Subscript             |`<sub> </sub>`    |`This is a <sub>subscript</sub> text`   |This is a subscript text              |
 |Superscript           |`<sup> </sup>`    |`This is a <sup>superscript</sup> text` |This is a superscript text            |
-|Underline             |`<ins> </ins>`    |`This is an <ins>underlined</ins> text` |This is an underlined text            |
+|Underline             |`<ins> </ins>`    |`This is an <ins>underlined</ins> text` |This is an <ins>underlined</ins> text |
 
 ---
 
@@ -285,7 +285,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > Negative potential consequences of an action.
 
 > [!NOTE]  
-> **</ins>Nesting and Indentation</ins>**
+> <ins>**Nesting and Indentation**</ins>
 > 
 > GitLab Flavored Markdown supports nesting and indentation alignment of the Alert Blocks, but GitHub Flavored Markdown doesn't support it.
 > 
