@@ -17,7 +17,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Headings
-> Syntax
+> **Syntax**  
 > ```
 > # Heading 1
 > ## Heading 2
@@ -27,7 +27,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > ###### Heading 6
 > ```
 
-> Output
+> **Output**  
 > # Heading 1
 > ## Heading 2
 > ### Heading 3
@@ -40,7 +40,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 # Line Breaks
 
 ## Paragraphs
-> Syntax
+> **Syntax**  
 > ```
 > This is the first paragraph.
 > This will not be counted as a new line.
@@ -55,14 +55,15 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > However, an empty line will create a paragraph. So, this is the second paragraph.
 
 ## New line
-> Sytnax
+> **Sytnax**  
 > ```
 > This is line 1.
 > But this won't be next line.\
-> This, however, is the line 2, because of the backslash (`\`) in previous line.
+> This, however, is the line 2, because of the backslash (`\`) in previous line.  
+> And this is also in next line, because of double-space (`  `).
 > ```
 
-> Output
+> **Output**  
 > This is line 1.
 > But this won't be next line.\
 > This, however, is the line 2, because of the backslash (`\`) in previous line.
@@ -87,7 +88,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > [!NOTE]
 > GitHub automatically adds a horizontal line when rendering headings, but it doesn't modify the text.
 
-> Syntax
+> **Syntax**  
 > ```
 > Option 1: using Hyphens (-)
 > ---
@@ -99,7 +100,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > ___
 > ```
 
-> Output
+> **Output**  
 > Option 1: using Hyphens (-)
 > ---
 > 
@@ -113,7 +114,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 # Lists
 ## Unordered Lists
-> Syntax
+> **Syntax**  
 > ```
 > - Option 1: using Hyphen / Minus (-)
 >   - Sub-item with indentation.
@@ -126,7 +127,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >     * More indentation.
 > ```
 
-> Syntax
+> **Output**  
 > - Option 1: using Hyphen / Minus (-)
 >   - Sub-item with indentation.
 >     - Nesting with more indentation.
@@ -138,7 +139,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >     * More indentation.
 
 ## Ordered Lists
-> Syntax
+> **Syntax**  
 > ```
 > 1. Type "1." and a Space to create first item.
 > 2. Continue the numbering to add more items.
@@ -146,14 +147,14 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >       1. Nesting is also supported.
 > ```
 
-> Output
+> **Output**  
 > 1. Type "1." and a Space to create first item.
 > 2. Continue the numbering to add more items.
 >    1. Indent to create sub-item.
 >       1. Nesting is also supported.
 
 ## Mixing List Types
-> Syntax
+> **Syntax**  
 > ```
 > 1. Unordered List
 >    - Item 1
@@ -167,7 +168,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >      - No order here too!
 > ```
 
-> Output
+> **Output**  
 > 1. Unordered List
 >    - Item 1
 >      1. Ordered sub-list.
@@ -182,14 +183,14 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Task Lists
-> Syntax
+> **Syntax**  
 > ```
 > - [ ] Unchecked item.
 > - [x] Checked item.
 >   - [ ] Sub-tasks with indentation.
 > ```
 
-> Output
+> **Output**  
 > - [ ] Unchecked item.
 > - [x] Checked item.
 >   - [ ] Sub-tasks with indentation.
@@ -197,7 +198,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Links
-> Syntax
+> **Syntax**  
 > ```
 > - Inline-style link: [Example Domain](https://example.com/)
 > - File in _same directory_: [Example Text File](example.txt)
@@ -212,7 +213,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >   - http://localhost:3000
 > ```
 
-> Output
+> **Output**  
 > - Inline-style link: [Example Domain](https://example.com/)
 > - File in _same directory_: [Example Text File](example.txt)
 > - Relative link: [File inside a sub-directory](ExampleDirectory/Example2.txt)
@@ -228,7 +229,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Quote Blocks
-> Syntax
+> **Syntax**  
 > ```
 > > This is a Block Quote.
 > > This is another line in the Block Quote.
@@ -243,7 +244,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > >>>
 > ```
 
-> Output
+> **Output**  
 > > This is a Block Quote.
 > > This is another line in the Block Quote.
 > > This is how the "Syntax" and "Output" sections are written here.
