@@ -250,36 +250,71 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 # Alert Blocks
 > **Syntax**  
 > ```
-> - This is a Note block
-> 	> [!NOTE]
-> 	> Highlights information that users should take into account, even when skimming.
-> - This is a Tip block
-> 	> [!TIP]
-> 	> Optional information to help a user be more successful.
-> - This is an Important block
-> 	> [!IMPORTANT]
-> 	> Crucial information necessary for users to succeed.
-> - This is a Warning block
-> 	> [!WARNING]
-> 	> Critical content demanding immediate user attention due to potential risks.
-> - This is a Caution block
-> 	> [!CAUTION]
-> 	> Negative potential consequences of an action.
+> > [!NOTE]  
+> > Highlights information that users should take into account, even when skimming.
+> 
+> > [!TIP]  
+> > Optional information to help a user be more successful.
+> 
+> > [!IMPORTANT]  
+> > Crucial information necessary for users to succeed.
+> 
+> > [!WARNING]  
+> > Critical content demanding immediate user attention due to potential risks.
+> 
+> > [!CAUTION]  
+> > Negative potential consequences of an action.
 > ```
 
 > **Output**  
-> - This is a Note block
-> 	> [!NOTE]
-> 	> Highlights information that users should take into account, even when skimming.
-> - This is a Tip block
-> 	> [!TIP]
-> 	> Optional information to help a user be more successful.
-> - This is an Important block
-> 	> [!IMPORTANT]
-> 	> Crucial information necessary for users to succeed.
-> - This is a Warning block
-> 	> [!WARNING]
-> 	> Critical content demanding immediate user attention due to potential risks.
-> - This is a Caution block
-> 	> [!CAUTION]
-> 	> Negative potential consequences of an action.
+> > [!NOTE]  
+> > Highlights information that users should take into account, even when skimming.
+> 
+> > [!TIP]  
+> > Optional information to help a user be more successful.
+> 
+> > [!IMPORTANT]  
+> > Crucial information necessary for users to succeed.
+> 
+> > [!WARNING]  
+> > Critical content demanding immediate user attention due to potential risks.
+> 
+> > [!CAUTION]  
+> > Negative potential consequences of an action.
+
+> [!NOTE] **Note:** Nesting and Indentation
+> GitLab Flavored Markdown supports nesting and indentation alignment of the Alert Blocks, but GitHub Flavored Markdown doesn't support it.  
+> The block below will be rendered as intended in GitLab, but _not in GitHub_.
+> > ```
+> > - This is a Note block
+> > 	> [!NOTE]
+> > 	> Highlights information that users should take into account, even when skimming.
+> > - This is a Tip block
+> > 	> [!TIP]
+> > 	> Optional information to help a user be more successful.
+> > - This is an Important block
+> > 	> [!IMPORTANT]
+> > 	> Crucial information necessary for users to succeed.
+> > - This is a Warning block
+> > 	> [!WARNING]
+> > 	> Critical content demanding immediate user attention due to potential risks.
+> > - This is a Caution block
+> > 	> [!CAUTION]
+> > 	> Negative potential consequences of an action.
+> > ```
+> 
+> > - This is a Note block
+> > 	> [!NOTE]
+> > 	> Highlights information that users should take into account, even when skimming.
+> > - This is a Tip block
+> > 	> [!TIP]
+> > 	> Optional information to help a user be more successful.
+> > - This is an Important block
+> > 	> [!IMPORTANT]
+> > 	> Crucial information necessary for users to succeed.
+> > - This is a Warning block
+> > 	> [!WARNING]
+> > 	> Critical content demanding immediate user attention due to potential risks.
+> > - This is a Caution block
+> > 	> [!CAUTION]
+> > 	> Negative potential consequences of an action.
