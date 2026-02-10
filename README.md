@@ -233,32 +233,17 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 # Quote Blocks
 > **Syntax**  
 > ```
-> > This is a Block Quote.
-> > This is another line in the Block Quote.
-> > This is how the "Syntax" and "Output" sections are written here.
+> > This is a Block Quote.  
+> > This is another line in the Block Quote.  
+> > This is how the "Syntax" and "Output" sections are written here.  
 > > > They can also be nested like this.
-> ```
-> 
-> ```
-> >>>
-> This creates a Multi-Line Block Quote.
-> It doesn't require each line to start with a `>`.
-> >>>
 > ```
 
 > **Output**  
-> > This is a Block Quote.
-> > This is another line in the Block Quote.
-> > This is how the "Syntax" and "Output" sections are written here.
+> > This is a Block Quote.  
+> > This is another line in the Block Quote.  
+> > This is how the "Syntax" and "Output" sections are written here.  
 > > > They can also be nested like this.
-
->>>
-This creates a Multi-Line Block Quote.
-It doesn't require each line to start with a `>`.
-	>>>
-	Testing Nesting Multi-line Block Quote.
-	>>>
->>>
 
 ---
 
