@@ -66,7 +66,8 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > **Output**  
 > This is line 1.
 > But this won't be next line.\
-> This, however, is the line 2, because of the backslash (`\`) in previous line.
+> This, however, is the line 2, because of the backslash (`\`) in previous line.  
+> And this is also in next line, because of double-space (`  `).
 
 ---
 
