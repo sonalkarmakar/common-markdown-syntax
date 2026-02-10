@@ -87,7 +87,8 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 # Horizontal Line
 > [!NOTE]
-> GitHub automatically adds a horizontal line when rendering headings, but it doesn't modify the text.
+> 1. GitHub automatically adds a horizontal line when rendering headings, but it doesn't modify the text.
+> 2. Horizontal lines turn the respective lines above into a Heading. See the renderings in **Output** section below.
 
 > **Syntax**  
 > ```
