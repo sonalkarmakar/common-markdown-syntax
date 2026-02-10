@@ -325,3 +325,14 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > > - This is a Caution block
 > > 	> [!CAUTION]
 > > 	> Negative potential consequences of an action.
+
+---
+
+# Code Blocks
+> <ins>**Syntax**</ins>
+> ```
+> Add Syntax here
+> ```
+
+> <ins>**Output**</ins>
+> Add Output here
