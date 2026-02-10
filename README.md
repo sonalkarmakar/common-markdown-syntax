@@ -48,7 +48,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > However, an empty line will create a paragraph. So, this is the second paragraph.
 > ```
 
-> Output
+> Output  
 > This is the first paragraph.
 > This will not be counted as a new line.
 > 
@@ -84,7 +84,8 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Horizontal Line
-> ***Note:*** GitHub automatically adds a horizontal line when rendering headings, but it doesn't modify the text.
+> [!NOTE]
+> GitHub automatically adds a horizontal line when rendering headings, but it doesn't modify the text.
 
 > Syntax
 > ```
