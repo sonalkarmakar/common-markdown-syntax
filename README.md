@@ -17,7 +17,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Headings
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > # Heading 1
 > ## Heading 2
@@ -27,7 +27,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > ###### Heading 6
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 > # Heading 1
 > ## Heading 2
 > ### Heading 3
@@ -40,7 +40,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 # Line Breaks
 
 ## Paragraphs
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > This is the first paragraph.
 > This will not be counted as a new line.
@@ -48,14 +48,14 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > However, an empty line will create a paragraph. So, this is the second paragraph.
 > ```
 
-> Output  
+> <ins>**Output**</ins>  
 > This is the first paragraph.
 > This will not be counted as a new line.
 > 
 > However, an empty line will create a paragraph. So, this is the second paragraph.
 
 ## New Line
-> **Sytnax**  
+> <ins>**Sytnax**</ins>  
 > ```
 > This is line 1.
 > But this won't be next line.\
@@ -63,7 +63,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > And this is also in next line, because of double-space (`  `).
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 > This is line 1.
 > But this won't be next line.\
 > This, however, is the line 2, because of the backslash (`\`) in previous line.  
@@ -90,7 +90,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > - GitHub automatically adds a horizontal line when rendering headings, but it doesn't modify the text.
 > - Horizontal lines turn the respective lines above into a Heading. See the renderings in **Output** section below.
 
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > Option 1: using Hyphens (-)
 > ---
@@ -102,7 +102,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > ___
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 > 
 > Option 1: using Hyphens (-)
 > ---
@@ -117,7 +117,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 # Lists
 ## Unordered Lists
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > - Option 1: using Hyphen / Minus (-)
 >   - Sub-item with indentation.
@@ -130,7 +130,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >     * More indentation.
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 > - Option 1: using Hyphen / Minus (-)
 >   - Sub-item with indentation.
 >     - Nesting with more indentation.
@@ -142,7 +142,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >     * More indentation.
 
 ## Ordered Lists
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > 1. Type "1." and a Space to create first item.
 > 2. Continue the numbering to add more items.
@@ -150,14 +150,14 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >       1. Nesting is also supported.
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 > 1. Type "1." and a Space to create first item.
 > 2. Continue the numbering to add more items.
 >    1. Indent to create sub-item.
 >       1. Nesting is also supported.
 
 ## Mixing List Types
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > 1. Unordered List
 >    - Item 1
@@ -171,7 +171,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >      - No order here too!
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 > 1. Unordered List
 >    - Item 1
 >      1. Ordered sub-list.
@@ -186,14 +186,14 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Task Lists
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > - [ ] Unchecked item.
 > - [x] Checked item.
 >   - [ ] Sub-tasks with indentation.
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 > - [ ] Unchecked item.
 > - [x] Checked item.
 >   - [ ] Sub-tasks with indentation.
@@ -201,7 +201,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Links
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > - Inline-style link: [Example Domain](https://example.com/)
 > - File in _same directory_: [Example Text File](example.txt)
@@ -216,7 +216,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >   - http://localhost:3000
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 > - Inline-style link: [Example Domain](https://example.com/)
 > - File in _same directory_: [Example Text File](example.txt)
 > - Relative link: [File inside a sub-directory](ExampleDirectory/Example2.txt)
@@ -232,7 +232,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Quote Blocks
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > > This is a Block Quote.  
 > > This is another line in the Block Quote.  
@@ -240,7 +240,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > > > They can also be nested like this.
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 > > This is a Block Quote.  
 > > This is another line in the Block Quote.  
 > > This is how the "Syntax" and "Output" sections are written here.  
@@ -249,7 +249,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Alert Blocks
-> **Syntax**  
+> <ins>**Syntax**</ins>  
 > ```
 > > [!NOTE]  
 > > Highlights information that users should take into account, even when skimming.
@@ -267,7 +267,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > > Negative potential consequences of an action.
 > ```
 
-> **Output**  
+> <ins>**Output**</ins>  
 
 > [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
@@ -290,6 +290,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > GitLab Flavored Markdown supports nesting and indentation alignment of the Alert Blocks, but GitHub Flavored Markdown doesn't support it.
 > 
 > The block below will be rendered as intended in GitLab, but _not in GitHub_.
+> > <ins>**Syntax**</ins>
 > > ```
 > > - This is a Note block
 > > 	> [!NOTE]
@@ -308,6 +309,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > > 	> Negative potential consequences of an action.
 > > ```
 > 
+> > <ins>**Output**</ins>
 > > - This is a Note block
 > > 	> [!NOTE]
 > > 	> Highlights information that users should take into account, even when skimming.
