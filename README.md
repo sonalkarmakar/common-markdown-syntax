@@ -248,3 +248,38 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Alert Blocks
+> **Syntax**  
+> ```
+> - This is a Note block
+> 	> [!NOTE]
+> 	> Highlights information that users should take into account, even when skimming.
+> - This is a Tip block
+> 	> [!TIP]
+> 	> Optional information to help a user be more successful.
+> - This is an Important block
+> 	> [!IMPORTANT]
+> 	> Crucial information necessary for users to succeed.
+> - This is a Warning block
+> 	> [!WARNING]
+> 	> Critical content demanding immediate user attention due to potential risks.
+> - This is a Caution block
+> 	> [!CAUTION]
+> 	> Negative potential consequences of an action.
+> ```
+
+> **Output**  
+> - This is a Note block
+> 	> [!NOTE]
+> 	> Highlights information that users should take into account, even when skimming.
+> - This is a Tip block
+> 	> [!TIP]
+> 	> Optional information to help a user be more successful.
+> - This is an Important block
+> 	> [!IMPORTANT]
+> 	> Crucial information necessary for users to succeed.
+> - This is a Warning block
+> 	> [!WARNING]
+> 	> Critical content demanding immediate user attention due to potential risks.
+> - This is a Caution block
+> 	> [!CAUTION]
+> 	> Negative potential consequences of an action.
