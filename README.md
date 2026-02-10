@@ -54,7 +54,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > 
 > However, an empty line will create a paragraph. So, this is the second paragraph.
 
-## New line
+## New Line
 > **Sytnax**  
 > ```
 > This is line 1.
@@ -250,11 +250,14 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > > This is another line in the Block Quote.
 > > This is how the "Syntax" and "Output" sections are written here.
 > > > They can also be nested like this.
-> 
-> >>>
-> This creates a Multi-Line Block Quote.
-> It doesn't require each line to start with a `>`.
-> >>>
+
+>>>
+This creates a Multi-Line Block Quote.
+It doesn't require each line to start with a `>`.
+	>>>
+	Testing Nesting Multi-line Block Quote.
+	>>>
+>>>
 
 ---
 
