@@ -285,7 +285,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > Negative potential consequences of an action.
 
 > [!NOTE]  
-> <ins>**Nesting and Indentation**</ins>
+> <ins style="color: DodgerBlue">**Nesting and Indentation**</ins>
 > 
 > GitLab Flavored Markdown supports nesting and indentation alignment of the Alert Blocks, but GitHub Flavored Markdown doesn't support it.
 > 
