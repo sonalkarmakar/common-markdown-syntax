@@ -269,19 +269,19 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 > <ins>**Output**</ins>  
 
-> [!NOTE] Testing  
+> [!NOTE]  
 > Highlights information that users should take into account, even when skimming.
 
-> [!TIP] Testing  
+> [!TIP]  
 > Optional information to help a user be more successful.
 
-> [!IMPORTANT] Testing  
+> [!IMPORTANT]  
 > Crucial information necessary for users to succeed.
 
-> [!WARNING] Testing  
+> [!WARNING]  
 > Critical content demanding immediate user attention due to potential risks.
 
-> [!CAUTION] Testing  
+> [!CAUTION]  
 > Negative potential consequences of an action.
 
 > [!NOTE] Nesting and Indentation  
