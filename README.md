@@ -79,8 +79,8 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 |Strikethrough         |`~~ ~~` or `~ ~`  |`~~This was mistaken text~~`            |~~This was mistaken text~~            |
 |Bold and nested italic|`** **` and `_ _` |`**This text is _extremely_ important**`|**This text is _extremely_ important**|
 |All bold and italic   |`*** ***`         |`***All this text is important***`      |_**All this text is important**_      |
-|Subscript             |`<sub> </sub>`    |`This is a <sub>subscript</sub> text`   |This is a subscript text              |
-|Superscript           |`<sup> </sup>`    |`This is a <sup>superscript</sup> text` |This is a superscript text            |
+|Subscript             |`<sub> </sub>`    |`This is a <sub>subscript</sub> text`   |This is a <sub>subscript</sub> text   |
+|Superscript           |`<sup> </sup>`    |`This is a <sup>superscript</sup> text` |This is a <sup>superscript</sup> text |
 |Underline             |`<ins> </ins>`    |`This is an <ins>underlined</ins> text` |This is an <ins>underlined</ins> text |
 
 ---
@@ -290,7 +290,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > GitLab Flavored Markdown supports nesting and indentation alignment of the Alert Blocks, but GitHub Flavored Markdown doesn't support it.
 > 
 > The block below will be rendered as intended in GitLab, but _not in GitHub_.
-> > <ins>**Syntax**</ins>
+> > <ins>**Syntax**</ins>  
 > > ```
 > > - This is a Note block
 > > 	> [!NOTE]
@@ -309,7 +309,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > > 	> Negative potential consequences of an action.
 > > ```
 > 
-> > <ins>**Output**</ins>
+> > <ins>**Output**</ins>  
 > > - This is a Note block
 > > 	> [!NOTE]
 > > 	> Highlights information that users should take into account, even when skimming.
@@ -329,10 +329,10 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Code Blocks
-> <ins>**Syntax**</ins>
+> <ins>**Syntax**</ins>  
 > ```
 > Add Syntax here
 > ```
 
-> <ins>**Output**</ins>
+> <ins>**Output**</ins>  
 > Add Output here
