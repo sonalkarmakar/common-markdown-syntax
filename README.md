@@ -351,8 +351,12 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > ```
 
 ## Syntax Highlighting
+> [NOTE]  
+> - [GitHub's supported languages and keywords](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) ("name" and "aliases" fields in the YAML file). GitHub uses [Linguist](https://github.com/github-linguist/linguist).
+> - [GitLab's supported languages and keywords](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers). GitLab uses [Rogue Ruby library](https://github.com/rouge-ruby/rouge).
+
 > <ins>**Syntax**</ins>  
-> Written in Bash  
+> Written in _Bash_  
 > ````
 > ```bash
 > checkEvenOdd() {
@@ -367,16 +371,16 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > ```
 > ````
 >   
-> Written in Markdown  
+> Written in _Markdown_  
 > ````
 > ```md
 > # This is a Markdown Syntax
-> 1. All Mardown syntax are _highlighted_ here.
+> 1. All Markdown syntax are _highlighted_ here.
 > - But, they're **not rendered**
 > ```
 > ````
 >   
-> Written in XML  
+> Written in _XML_  
 > ````
 > ```xml
 > <?xml version="1.0" encoding="UTF-8"?>
@@ -397,7 +401,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > ````
 
 > <ins>**Output**</ins>  
-> Written in Bash  
+> Written in _Bash_  
 > ```bash
 > checkEvenOdd() {
 > 	local number=$1
@@ -410,14 +414,14 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > }
 > ```
 >   
-> Written in Markdown  
+> Written in _Markdown_  
 > ```md
 > # This is a Markdown Syntax
-> 1. All Mardown syntax are _highlighted_ here.
+> 1. All Markdown syntax are _highlighted_ here.
 > - But, they're **not rendered**
 > ```
 >   
-> Written in XML  
+> Written in _XML_  
 > ```xml
 > <?xml version="1.0" encoding="UTF-8"?>
 > <library>
