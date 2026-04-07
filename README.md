@@ -222,7 +222,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > - Relative link: [File inside a sub-directory](ExampleDirectory/Example2.txt)
 > - Link to a Section: [This goes to the top Heading](#common-markdown-syntax)
 > - Link to Section in another Markdown file: [Example.md Link](example.md#example-heading-1)
-> - URL Auto-linking:
+> - URL Auto-linking (some might not work in GitHub):
 >   - https://www.google.com
 >   - ftp://ftp.us.debian.org/debian/
 >   - smb://foo/bar/baz
@@ -329,10 +329,69 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 # Code Blocks
+## Basic code block  
 > <ins>**Syntax**</ins>  
+> ````
 > ```
-> Add Syntax here
+> checkEvenOdd(number){
+> 	if number is divisble by 2,
+> 		return "Even"
+> 	else, return "Odd"
+> }
 > ```
+> ````
 
 > <ins>**Output**</ins>  
-> Add Output here
+> ```
+> checkEvenOdd(number){
+> 	if number is divisble by 2,
+> 		return "Even"
+> 	else, return "Odd"
+> }
+> ```
+
+## Syntax Highlighting
+> <ins>**Syntax**</ins>  
+> Written in Bash  
+> ````
+> ```bash
+> checkEvenOdd() {
+> 	local number=$1
+> 	
+> 	if (( number % 2 == 0 )); then
+> 		printf "Even"
+> 	else
+> 		printf "Odd"
+> 	fi
+> }
+> ```
+> ````
+>   
+> Written in Markdown  
+> ````
+> ```md
+> # This is a Markdown Syntax
+> 1. All Mardown syntax are _highlighted_ here.
+> - But, they're **not rendered**
+> ```
+> ````
+>   
+> Written in XML  
+> ````
+> ```xml
+> <?xml version="1.0" encoding="UTF-8"?>
+> <library>
+>     <book id="b1">
+>         <title>The Adventures of Sherlock Holmes</title>
+>         <author>Arthur Conan Doyle</author>
+>         <year>1892</year>
+>     </book>
+> 
+>     <book id="b2">
+>         <title>Pride and Prejudice</title>
+>         <author>Jane Austen</author>
+>         <year>1813</year>
+>     </book>
+> </library>
+> ```
+> ````
