@@ -395,3 +395,42 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > </library>
 > ```
 > ````
+
+> <ins>**Output**</ins>  
+> Written in Bash  
+> ```bash
+> checkEvenOdd() {
+> 	local number=$1
+> 	
+> 	if (( number % 2 == 0 )); then
+> 		printf "Even"
+> 	else
+> 		printf "Odd"
+> 	fi
+> }
+> ```
+>   
+> Written in Markdown  
+> ```md
+> # This is a Markdown Syntax
+> 1. All Mardown syntax are _highlighted_ here.
+> - But, they're **not rendered**
+> ```
+>   
+> Written in XML  
+> ```xml
+> <?xml version="1.0" encoding="UTF-8"?>
+> <library>
+>     <book id="b1">
+>         <title>The Adventures of Sherlock Holmes</title>
+>         <author>Arthur Conan Doyle</author>
+>         <year>1892</year>
+>     </book>
+> 
+>     <book id="b2">
+>         <title>Pride and Prejudice</title>
+>         <author>Jane Austen</author>
+>         <year>1813</year>
+>     </book>
+> </library>
+> ```
