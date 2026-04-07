@@ -352,8 +352,8 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ## Syntax Highlighting
 > [!NOTE]  
-> - [GitHub's supported languages and keywords](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) ("name" and "aliases" fields in the YAML file). GitHub uses [Linguist](https://github.com/github-linguist/linguist).
-> - [GitLab's supported languages and keywords](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers). GitLab uses [Rogue Ruby library](https://github.com/rouge-ruby/rouge).
+> - [**GitHub's supported languages and keywords**](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) ("name" and "aliases" fields in the YAML file). GitHub uses [Linguist](https://github.com/github-linguist/linguist).
+> - [**GitLab's supported languages and keywords**](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers). GitLab uses [Rogue Ruby library](https://github.com/rouge-ruby/rouge).
 
 > <ins>**Syntax**</ins>  
 > Written in _Bash_  
