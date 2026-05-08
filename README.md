@@ -440,12 +440,57 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > ```
 
 ## Backtick Fencing  
-``
-Test1  
-`Test2`
-``
+- Minimum _3 backticks_ are required for a **code block**, _less_ will render as **inline code**.
+- Number of backticks _ending a section_**must match**_ the number of backticks _starting it_.
+- Closest pair of matching backticks are considered a block. Meaning that a line of `N` backticks will create a block with the latest line before it that has `N` backticks.
+- Sections created with different number of backticks can be nested. A block marked with _3 backticks_ can be nested inside a block marked with _4 backticks_.
 
-```
-Test1
-Test2
-```
+The rules above are used to to write this entire section.  
+
+> <ins>**Syntax**</ins>
+> - Using **2 backticks**.
+> 	```
+> 	``
+> 	Line 1
+> 	`Line 2`
+> 	``
+> 	```
+> - Using nested backtick blocks
+> 	`````
+> 	````yaml
+> 	name: Test YAML
+> 	  vars:
+> 	    foo: 1
+> 	    bar: hello
+> 	    baz:
+> 	      - item1
+> 	      - item2
+> 	```sh
+> 	echo "Hello, World!"
+> 	```
+> 	````
+> 	`````
+
+> <ins>**Output**</ins>
+> - Using **2 backticks**.
+> 	```
+> 	``
+> 	Line 1
+> 	`Line 2`
+> 	``
+> 	```
+> - Using nested backtick blocks
+> 	`````
+> 	````yaml
+> 	name: Test YAML
+> 	  vars:
+> 	    foo: 1
+> 	    bar: hello
+> 	    baz:
+> 	      - item1
+> 	      - item2
+> 	```sh
+> 	echo "Hello, World!"
+> 	```
+> 	````
+> 	`````
