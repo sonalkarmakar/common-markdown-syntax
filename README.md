@@ -448,14 +448,14 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 The rules above are used to to write this entire section.  
 
 > <ins>**Syntax**</ins>
-> - Using **2 backticks**.
+> - Using **2 backticks**.  
 > 	```
 > 	``
 > 	Line 1
 > 	`Line 2`
 > 	``
 > 	```
-> - Using nested backtick blocks
+> - Using nested backtick blocks.  
 > 	`````
 > 	````yaml
 > 	name: Test YAML
@@ -472,12 +472,12 @@ The rules above are used to to write this entire section.
 > 	`````
 
 > <ins>**Output**</ins>
-> - Using **2 backticks**.
+> - Using **2 backticks**.  
 > 	``
 > 	Line 1
 > 	`Line 2`
 > 	``
-> - Using nested backtick blocks
+> - Using nested backtick blocks.  
 > 	````yaml
 > 	name: Test YAML
 > 	  vars:
