@@ -16,30 +16,30 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-# Headings
+## Headings
 > <ins>**Syntax**</ins>  
 > ```
-> # Heading 1
-> ## Heading 2
-> ### Heading 3
-> #### Heading 4
-> ##### Heading 5
-> ###### Heading 6
+> ## Heading 1
+> ### Heading 2
+> #### Heading 3
+> ##### Heading 4
+> ###### Heading 5
+> ####### Heading 6
 > ```
 
 > <ins>**Output**</ins>  
-> # Heading 1
-> ## Heading 2
-> ### Heading 3
-> #### Heading 4
-> ##### Heading 5
-> ###### Heading 6
+> ## Heading 1
+> ### Heading 2
+> #### Heading 3
+> ##### Heading 4
+> ###### Heading 5
+> ####### Heading 6
 
 ---
 
-# Line Breaks
+## Line Breaks
 
-## Paragraphs
+### Paragraphs
 > <ins>**Syntax**</ins>  
 > ```
 > This is the first paragraph.
@@ -54,7 +54,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > 
 > However, an empty line will create a paragraph. So, this is the second paragraph.
 
-## New Line
+### New Line
 > <ins>**Sytnax**</ins>  
 > ```
 > This is line 1.
@@ -71,7 +71,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-# Emphasis / Styling
+## Emphasis / Styling
 |Style                 |Syntax            |Example                                 |Output                                |
 |----------------------|------------------|----------------------------------------|--------------------------------------|
 |Bold                  |`** **` or `__ __`|`**This is bold text**`                 |**This is bold text**                 |
@@ -85,7 +85,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-# Horizontal Line
+## Horizontal Line
 > [!NOTE]
 > - GitHub automatically adds a horizontal line when rendering headings, but it doesn't modify the text.
 > - Horizontal lines turn the respective lines above into a Heading. See the renderings in **Output** section below.
@@ -115,8 +115,8 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-# Lists
-## Unordered Lists
+## Lists
+### Unordered Lists
 > <ins>**Syntax**</ins>  
 > ```
 > - Option 1: using Hyphen / Minus (-)
@@ -141,7 +141,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >   * Sub-item with indentation.
 >     * More indentation.
 
-## Ordered Lists
+### Ordered Lists
 > <ins>**Syntax**</ins>  
 > ```
 > 1. Type "1." and a Space to create first item.
@@ -156,7 +156,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >    1. Indent to create sub-item.
 >       1. Nesting is also supported.
 
-## Mixing List Types
+### Mixing List Types
 > <ins>**Syntax**</ins>  
 > ```
 > 1. Unordered List
@@ -185,7 +185,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-# Task Lists
+## Task Lists
 > <ins>**Syntax**</ins>  
 > ```
 > - [ ] Unchecked item.
@@ -200,7 +200,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-# Links
+## Links
 > <ins>**Syntax**</ins>  
 > ```
 > - Inline-style link: [Example Domain](https://example.com/)
@@ -231,7 +231,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-# Quote Blocks
+## Quote Blocks
 > <ins>**Syntax**</ins>  
 > ```
 > > This is a Block Quote.  
@@ -248,7 +248,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-# Alert Blocks
+## Alert Blocks
 > <ins>**Syntax**</ins>  
 > ```
 > > [!NOTE]  
@@ -328,8 +328,8 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-# Code Blocks
-## Basic Code Block  
+## Code Blocks
+### Basic Code Block  
 > <ins>**Syntax**</ins>  
 > ````
 > ```
@@ -350,7 +350,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > }
 > ```
 
-## Syntax Highlighting
+### Syntax Highlighting
 > [!NOTE]  
 > - [**GitHub's supported languages and keywords**](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) ("`name`" and "`aliases`" fields in the YAML file). GitHub uses [Linguist](https://github.com/github-linguist/linguist).
 > - [**GitLab's supported languages and keywords**](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers). GitLab uses [Rogue Ruby library](https://github.com/rouge-ruby/rouge).
@@ -374,7 +374,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > Written in _Markdown_  
 > ````
 > ```md
-> # This is a Markdown Syntax
+> ## This is a Markdown Syntax
 > 1. All Markdown syntax are _highlighted_ here.
 > - But, they're **not rendered**
 > ```
@@ -416,7 +416,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 >   
 > Written in _Markdown_  
 > ```md
-> # This is a Markdown Syntax
+> ## This is a Markdown Syntax
 > 1. All Markdown syntax are _highlighted_ here.
 > - But, they're **not rendered**
 > ```
@@ -439,13 +439,13 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > </library>
 > ```
 
-## Backtick Fencing  
+### Backtick Fencing  
 - Minimum _3 backticks_ are required for a **code block**, _less_ will render as **inline code**.
 - Number of backticks _ending a section_**must match**_ the number of backticks _starting it_.
 - Closest pair of matching backticks are considered a block. Meaning that a line of `N` backticks will create a block with the latest line before it that has `N` backticks.
 - Sections created with different number of backticks can be nested. A block marked with _3 backticks_ can be nested inside a block marked with _4 backticks_.
 
-The rules above are used to to write this entire section.  
+The rules above are used to to write this entire [Code Blocks](#code-blocks) section.  
 
 > <ins>**Syntax**</ins>
 > - Using **2 backticks**.  
