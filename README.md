@@ -19,21 +19,21 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ## Headings
 > <ins>**Syntax**</ins>  
 > ```
-> ## Heading 1
-> ### Heading 2
-> #### Heading 3
-> ##### Heading 4
-> ###### Heading 5
-> ####### Heading 6
+> # Heading 1
+> ## Heading 2
+> ### Heading 3
+> #### Heading 4
+> ##### Heading 5
+> ###### Heading 6
 > ```
 
 > <ins>**Output**</ins>  
-> ## Heading 1
-> ### Heading 2
-> #### Heading 3
-> ##### Heading 4
-> ###### Heading 5
-> ####### Heading 6
+> # Heading 1
+> ## Heading 2
+> ### Heading 3
+> #### Heading 4
+> ##### Heading 5
+> ###### Heading 6
 
 ---
 
