@@ -473,14 +473,11 @@ The rules above are used to to write this entire section.
 
 > <ins>**Output**</ins>
 > - Using **2 backticks**.
-> 	```
 > 	``
 > 	Line 1
 > 	`Line 2`
 > 	``
-> 	```
 > - Using nested backtick blocks
-> 	`````
 > 	````yaml
 > 	name: Test YAML
 > 	  vars:
@@ -493,4 +490,3 @@ The rules above are used to to write this entire section.
 > 	echo "Hello, World!"
 > 	```
 > 	````
-> 	`````
