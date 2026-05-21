@@ -500,7 +500,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 	|Left aligned|Centre aligned|Right aligned|
 > 	|:---|:------:|--------:|
 > 	|cell 1|Writing '\|' and '\-' using escape character `\`|cell 3|
-> 	|cell 4|cell 5 is longer|cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size.|
+> 	|cell 4 is longer|cell 5|cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size.|
 > 	|cell 7|This item has:<br>- Multiple items<br>- That we want listed separately.|cell 9|
 > 	```
 > 
@@ -518,7 +518,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 	|Left aligned|Centre aligned|Right aligned|
 > 	|:---|:------:|--------:|
 > 	|cell 1|Writing '\|' and '\-' using escape character `\`|cell 3|
-> 	|cell 4|cell 5 is longer|cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size.|
+> 	|cell 4 is longer|cell 5|cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size.|
 > 	|cell 7|This item has:<br>- Multiple items<br>- That we want listed separately.|cell 9|
 > 
 > - Cleaner plain-text for visual clarity. Table rendering unaffected.
