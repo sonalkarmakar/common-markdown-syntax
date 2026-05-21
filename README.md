@@ -513,7 +513,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 	| cell 7           | This item has:<br>- Multiple items<br>- That we want listed separately. | cell 9                                                                                                                              |
 > 	```
 
-> <ins>**Syntax**</ins>
+> <ins>**Output**</ins>
 > - Bare minimum syntax. Table renders as expected.
 > 	|Left aligned|Centre aligned|Right aligned|
 > 	|:---|:------:|--------:|
