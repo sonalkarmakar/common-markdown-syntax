@@ -530,7 +530,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 
 ## Colour Chips
 > [!IMPORTANT]  
-> For GitHub, rendering the colours are only supported in _Issues_, _Pull Requests_, and _Discussions_. See [_example GitHub Issue_](https://github.com/sonalkarmakar/common-markdown-syntax/issues/1#issue-4530112807) of this project.
+> GitHub supports rendering the colours only in _Issues_, _Pull Requests_, and _Discussions_. See [_example GitHub Issue_](https://github.com/sonalkarmakar/common-markdown-syntax/issues/1#issue-4530112807) of this project.
 
 > <ins>**Syntax**</ins>  
 > ```
