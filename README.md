@@ -527,3 +527,30 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 	| cell 1           | Writing '\|' and '\-' using escape character `\`                        | cell 3                                                                                                                              |
 > 	| cell 4 is longer.| cell 5                                                                  | cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size. |
 > 	| cell 7           | This item has:<br>- Multiple items<br>- That we want listed separately. | cell 9                                                                                                                              |
+
+## Colour Chips
+> <ins>**Syntax**</ins>
+> ```
+> Supported colour models:
+> - `#F00` Short HEX
+> - `#F00A` Short HEX with transparency (alpha)
+> - `#FF0000` HEX
+> - `#FF0000AA` HEX with transparency (alpha)
+> - `RGB(0,255,0)` RGB
+> - `RGB(0%,100%,0%)` RGB with percentage
+> - `RGBA(0,255,0,0.3)` RGB with transparency (alpha)
+> - `HSL(540,70%,50%)` HSL with wrapping (red) and percentage
+> - `HSLA(540,70%,50%,0.3)` HSL with transparency (alpha)
+> ```
+
+> <ins>**Output**</ins>
+> Supported colour models:
+> - `#F00` Short HEX
+> - `#F00A` Short HEX with transparency (alpha)
+> - `#FF0000` HEX
+> - `#FF0000AA` HEX with transparency (alpha)
+> - `RGB(0,255,0)` RGB
+> - `RGB(0%,100%,0%)` RGB with percentage
+> - `RGBA(0,255,0,0.3)` RGB with transparency (alpha)
+> - `HSL(540,70%,50%)` HSL with wrapping (red) and percentage
+> - `HSLA(540,70%,50%,0.3)` HSL with transparency (alpha)
