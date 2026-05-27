@@ -530,7 +530,8 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 
 ## Colour Chips
 > [!IMPORTANT]  
-> GitHub supports rendering the colours only in _Issues_, _Pull Requests_, and _Discussions_. See [_example GitHub Issue_](https://github.com/sonalkarmakar/common-markdown-syntax/issues/1#issue-4530112807) of this project.
+> - GitHub supports rendering the colours only in _Issues_, _Pull Requests_, and _Discussions_. See [_example GitHub Issue_](https://github.com/sonalkarmakar/common-markdown-syntax/issues/1#issue-4530112807) of this project.
+> - GitHub requires the _colour model names_("_rgb_" and "_hsl_") to be in **lowercase**, but GitLab supports uppercase too.
 
 > <ins>**Syntax**</ins>  
 > ```
