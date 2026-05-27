@@ -532,25 +532,15 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > <ins>**Syntax**</ins>  
 > ```
 > Supported colour models:
-> - `#F00` Short HEX
-> - `#F00A` Short HEX with transparency (alpha)
 > - `#FF0000` HEX
-> - `#FF0000AA` HEX with transparency (alpha)
-> - `RGB(0,255,0)` RGB
-> - `RGB(0%,100%,0%)` RGB with percentage
-> - `RGBA(0,255,0,0.3)` RGB with transparency (alpha)
-> - `HSL(540,70%,50%)` HSL with wrapping (red) and percentage
-> - `HSLA(540,70%,50%,0.3)` HSL with transparency (alpha)
+> - `rgb(0,255,0)` RGB
+> - `rgba(0,255,0,0.3)` RGB with transparency (alpha)
+> - `hsl(540,70%,50%)` HSL with wrapping (red) and percentage
 > ```
 
 > <ins>**Output**</ins>  
-Supported colour models:
-- `#F00` Short HEX
-- `#F00A` Short HEX with transparency (alpha)
-- `#FF0000` HEX
-- `#FF0000AA` HEX with transparency (alpha)
-- `RGB(0,255,0)` RGB
-- `RGB(0%,100%,0%)` RGB with percentage
-- `RGBA(0,255,0,0.3)` RGB with transparency (alpha)
-- `HSL(540,70%,50%)` HSL with wrapping (red) and percentage
-- `HSLA(540,70%,50%,0.3)` HSL with transparency (alpha)
+> Supported colour models:
+> - `#FF0000` HEX
+> - `rgb(0,255,0)` RGB
+> - `rgba(0,255,0,0.3)` RGB with transparency (alpha)
+> - `hsl(540,70%,50%)` HSL with wrapping (red) and percentage
