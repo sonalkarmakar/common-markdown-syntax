@@ -531,16 +531,19 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 ## Colour Chips
 > <ins>**Syntax**</ins>  
 > ```
-> Supported colour models:
-> - `#FF0000` HEX
-> - `rgb(0,255,0)` RGB
-> - `rgba(0,255,0,0.3)` RGB with transparency (alpha)
-> - `hsl(540,70%,50%)` HSL with wrapping (red) and percentage
+> GitHub's limitation leaves these supported models in common:
+> - `#FF0000` HEX.
+> - `rgb(0,255,0)` RGB.
+> - `rgba(0,255,0,0.3)` RGB with transparency (alpha).
+> - `hsl(540,70%,50%)` HSL with wrapping (Red value > 360) and percentage.
 > ```
 
 > <ins>**Output**</ins>  
-> Supported colour models:
-> - `#FF0000` HEX
-> - `rgb(0,255,0)` RGB
-> - `rgba(0,255,0,0.3)` RGB with transparency (alpha)
-> - `hsl(540,70%,50%)` HSL with wrapping (red) and percentage
+> GitHub's limitation leaves these supported models in common:
+> - `#FF0000` HEX.
+> - `rgb(0,255,0)` RGB.
+> - `rgba(0,255,0,0.3)` RGB with transparency (alpha).
+> - `hsl(540,70%,50%)` HSL with wrapping (Red value > 360) and percentage.
+
+> [!IMPORTANT]  
+> For GitHub, rendering the colours are only supported in _Issues_, _Pull Requests_, and _Discussions_. See [_example GitHub Issue_](https://github.com/sonalkarmakar/common-markdown-syntax/issues/1#issue-4530112807) of this project.
