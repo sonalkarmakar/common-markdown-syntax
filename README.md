@@ -529,6 +529,9 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 	| cell 7           | This item has:<br>- Multiple items<br>- That we want listed separately. | cell 9                                                                                                                              |
 
 ## Colour Chips
+> [!IMPORTANT]  
+> For GitHub, rendering the colours are only supported in _Issues_, _Pull Requests_, and _Discussions_. See [_example GitHub Issue_](https://github.com/sonalkarmakar/common-markdown-syntax/issues/1#issue-4530112807) of this project.
+
 > <ins>**Syntax**</ins>  
 > ```
 > GitHub's limitation leaves these supported models in common:
@@ -544,6 +547,3 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > - `rgb(0,255,0)` RGB.
 > - `rgba(0,255,0,0.3)` RGB with transparency (alpha).
 > - `hsl(540,70%,50%)` HSL with wrapping (Red value > 360) and percentage.
-
-> [!IMPORTANT]  
-> For GitHub, rendering the colours are only supported in _Issues_, _Pull Requests_, and _Discussions_. See [_example GitHub Issue_](https://github.com/sonalkarmakar/common-markdown-syntax/issues/1#issue-4530112807) of this project.
