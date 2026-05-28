@@ -506,11 +506,11 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 
 > - Cleaner plain-text for visual clarity. Table rendering unaffected.
 > 	```
-> 	| Left aligned     | Centre aligned                                                          | Right aligned                                                                                                                       |
-> 	| :--------------- | :---------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------: |
-> 	| cell 1           | Writing '\|' and '\-' using escape character `\`                        | cell 3                                                                                                                              |
-> 	| cell 4 is longer.| cell 5                                                                  | cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size. |
-> 	| cell 7           | This item has:<br>- Multiple items<br>- That we want listed separately. | cell 9                                                                                                                              |
+> 	| Left aligned      | Centre aligned                                                          | Right aligned                                                                                                                       |
+> 	| :---------------- | :---------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------: |
+> 	| cell 1            | Writing '\|' and '\-' using escape character `\`                        | cell 3                                                                                                                              |
+> 	| cell 4 is longer. | cell 5                                                                  | cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size. |
+> 	| cell 7            | This item has:<br>- Multiple items<br>- That we want listed separately. | cell 9                                                                                                                              |
 > 	```
 
 > <ins>**Output**</ins>
@@ -522,16 +522,16 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 	|cell 7|This item has:<br>- Multiple items<br>- That we want listed separately.|cell 9|
 > 
 > - Cleaner plain-text for visual clarity. Table rendering unaffected.
-> 	| Left aligned     | Centre aligned                                                          | Right aligned                                                                                                                       |
-> 	| :--------------- | :---------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------: |
-> 	| cell 1           | Writing '\|' and '\-' using escape character `\`                        | cell 3                                                                                                                              |
-> 	| cell 4 is longer.| cell 5                                                                  | cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size. |
-> 	| cell 7           | This item has:<br>- Multiple items<br>- That we want listed separately. | cell 9                                                                                                                              |
+> 	| Left aligned      | Centre aligned                                                          | Right aligned                                                                                                                       |
+> 	| :---------------- | :---------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------: |
+> 	| cell 1            | Writing '\|' and '\-' using escape character `\`                        | cell 3                                                                                                                              |
+> 	| cell 4 is longer. | cell 5                                                                  | cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size. |
+> 	| cell 7            | This item has:<br>- Multiple items<br>- That we want listed separately. | cell 9                                                                                                                              |
 
 ## Colour Chips
 > [!IMPORTANT]  
 > - GitHub supports rendering the colours only in _Issues_, _Pull Requests_, and _Discussions_. See [_example GitHub Issue_](https://github.com/sonalkarmakar/common-markdown-syntax/issues/1#issue-4530112807) of this project.
-> - GitHub requires the _colour model names_("_rgb_" and "_hsl_") to be in **lowercase**, but GitLab supports uppercase too.
+> - GitHub requires the _colour model names_ ("_rgb_" and "_hsl_") to be in **lowercase**, but GitLab supports uppercase too.
 
 > <ins>**Syntax**</ins>  
 > ```
@@ -548,3 +548,9 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > - `rgb(0,255,0)` RGB.
 > - `rgba(0,255,0,0.3)` RGB with transparency (alpha).
 > - `hsl(540,70%,50%)` HSL with wrapping (Red value > 360) and percentage.
+
+## Collapsible Sections
+
+## Mermaid Diagrams
+
+## LaTeX Mathematic Expressions
