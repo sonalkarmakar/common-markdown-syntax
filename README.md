@@ -16,13 +16,6 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
-> [NOTE]  
-> <a name="testing-custom-anchors"></a>
-> Text for custom anchor
-
-<a name="testing-custom-anchors-again"></a>
-Text for the other custom anchor
-
 ## Headings
 > <ins>**Syntax**</ins>  
 > ```
@@ -79,16 +72,16 @@ Text for the other custom anchor
 ---
 
 ## Emphasis / Styling
-|Style                 |Syntax            |Example                                 |Output                                |
-|----------------------|------------------|----------------------------------------|--------------------------------------|
-|Bold                  |`** **` or `__ __`|`**This is bold text**`                 |**This is bold text**                 |
-|Italic                |`* *` or `_ _`    |`_This text is italicized_`             |_This text is italicized_             |
-|Strikethrough         |`~~ ~~` or `~ ~`  |`~~This was mistaken text~~`            |~~This was mistaken text~~            |
-|Bold and nested italic|`** **` and `_ _` |`**This text is _extremely_ important**`|**This text is _extremely_ important**|
-|All bold and italic   |`*** ***`         |`***All this text is important***`      |_**All this text is important**_      |
-|Subscript             |`<sub> </sub>`    |`This is a <sub>subscript</sub> text`   |This is a <sub>subscript</sub> text   |
-|Superscript           |`<sup> </sup>`    |`This is a <sup>superscript</sup> text` |This is a <sup>superscript</sup> text |
-|Underline             |`<ins> </ins>`    |`This is an <ins>underlined</ins> text` |This is an <ins>underlined</ins> text |
+| Style                  | Syntax             | Example                                  | Output                                 |
+| ---------------------- | ------------------ | ---------------------------------------- | -------------------------------------- |
+| Bold                   | `** **` or `__ __` | `**This is bold text**`                  | **This is bold text**                  |
+| Italic                 | `* *` or `_ _`     | `_This text is italicized_`              | _This text is italicized_              |
+| Strikethrough          | `~~ ~~` or `~ ~`   | `~~This was mistaken text~~`             | ~~This was mistaken text~~             |
+| Bold and nested italic | `** **` and `_ _`  | `**This text is _extremely_ important**` | **This text is _extremely_ important** |
+| All bold and italic    | `*** ***`          | `***All this text is important***`       | _**All this text is important**_       |
+| Subscript              | `<sub> </sub>`     | `This is a <sub>subscript</sub> text`    | This is a <sub>subscript</sub> text    |
+| Superscript            | `<sup> </sup>`     | `This is a <sup>superscript</sup> text`  | This is a <sup>superscript</sup> text  |
+| Underline              | `<ins> </ins>`     | `This is an <ins>underlined</ins> text`  | This is an <ins>underlined</ins> text  |
 
 ---
 
@@ -212,7 +205,7 @@ Text for the other custom anchor
 > ```
 > - Inline-style link: [Example Domain](https://example.com/)
 > - File in _same directory_: [Example Text File](example.txt)
-> - Relative link: [File inside a sub-directory](ExampleDirectory/Example2.txt)
+> - Relative link: [File inside a sub-directory](media/example2.txt)
 > - Link to a Section: [This goes to the top Heading](#common-markdown-syntax)
 > - Link to Section in another Markdown file: [Example.md Link](example.md#example-heading-1)
 > - URL Auto-linking:
@@ -226,7 +219,7 @@ Text for the other custom anchor
 > <ins>**Output**</ins>  
 > - Inline-style link: [Example Domain](https://example.com/)
 > - File in _same directory_: [Example Text File](example.txt)
-> - Relative link: [File inside a sub-directory](ExampleDirectory/Example2.txt)
+> - Relative link: [File inside a sub-directory](media/example2.txt)
 > - Link to a Section: [This goes to the top Heading](#common-markdown-syntax)
 > - Link to Section in another Markdown file: [Example.md Link](example.md#example-heading-1)
 > - URL Auto-linking (some might not work in GitHub):
@@ -235,6 +228,36 @@ Text for the other custom anchor
 >   - smb://foo/bar/baz
 >   - irc://irc.freenode.net/
 >   - http://localhost:3000
+
+### Custom Anchor Points
+> <ins>**Syntax**</ins>
+> - Create a custom anchor point
+> ```
+> <a name="custom-anchor-point"></a>
+> Text that is linked with custom anchor.
+> ```
+> - Use it like Markdown heading links
+> ```
+> [Link text](#custom-anchor-point))
+> ```
+
+> <ins>**Output**</ins>
+> - Create a custom anchor point
+> <a name="custom-anchor-point"></a>
+> Text that is linked with custom anchor.
+> 
+> - Use it like Markdown heading links
+> [Link text](#custom-anchor-point)
+
+### Media Links
+- Image links
+	![Git Logo](./media/Git-Icon-1788C.png "Git Logo")
+- Reisizing images
+	<img src="./Media/Git-Icon-1788C.png" height="200" width="200" alt="The Git logo" title="Git Logo">
+- Audio links
+	![Extinct?](./media/extinct.opus "Extinct?")
+- Video links
+	![Sample Video](./media/markdown_video.mp4 "Sample video from GitLab")
 
 ---
 
@@ -561,7 +584,3 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 ## Mermaid Diagrams
 
 ## LaTeX Mathematic Expressions
-
-
-[Custom anchor](#testing-custom-anchors)
-[Custom anchor 2](#testing-custom-anchors-again)
