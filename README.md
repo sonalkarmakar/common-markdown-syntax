@@ -17,10 +17,10 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 ---
 
 > [NOTE]  
-> <a href="testing-custom-anchors"></a>
+> <a name="testing-custom-anchors"></a>
 > Text for custom anchor
 
-<a href="testing-custom-anchors-again"></a>
+<a name="testing-custom-anchors-again"></a>
 Text for the other custom anchor
 
 ## Headings
