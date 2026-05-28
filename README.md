@@ -250,14 +250,27 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > [Link text](#custom-anchor-point)
 
 ### Media Links
-- Image links
-	![Git Logo](./media/Git-Icon-1788C.png "Git Logo")
-- Reisizing images
-	<img src="./Media/Git-Icon-1788C.png" height="200" width="200" alt="The Git logo" title="Git Logo">
-- Audio links
-	![Extinct?](./media/extinct.opus "Extinct?")
-- Video links
-	![Sample Video](./media/markdown_video.mp4 "Sample video from GitLab")
+> <ins>**Syntax**</ins>
+> ```
+> - Image links
+> 	![Git Logo](./media/Git-Icon-1788C.png "Git Logo")
+> - Reisizing images
+> 	<img src="./media/Git-Icon-1788C.png" height="200" width="200" alt="The Git logo" title="Git Logo">
+> - Audio links
+> 	![Extinct?](./media/extinct.opus "Extinct?")
+> - Video links
+> 	![Sample Video](./media/markdown_video.mp4 "Sample video from GitLab")
+> ```
+
+> <ins>**Output**</ins>
+> - Image links
+> 	![Git Logo](./media/Git-Icon-1788C.png "Git Logo")
+> - Reisizing images
+> 	<img src="./media/Git-Icon-1788C.png" height="200" width="200" alt="The Git logo" title="Git Logo">
+> - Audio links
+> 	![Extinct?](./media/extinct.opus "Extinct?")
+> - Video links
+> 	![Sample Video](./media/markdown_video.mp4 "Sample video from GitLab")
 
 ---
 
