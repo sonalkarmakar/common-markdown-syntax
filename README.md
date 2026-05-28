@@ -16,6 +16,13 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
+> [NOTE]  
+> <a href="testing-custom-anchors"></a>
+> Text for custom anchor
+
+<a href="testing-custom-anchors-again"></a>
+Text for the other custom anchor
+
 ## Headings
 > <ins>**Syntax**</ins>  
 > ```
@@ -554,3 +561,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 ## Mermaid Diagrams
 
 ## LaTeX Mathematic Expressions
+
+
+[Custom anchor](#testing-custom-anchors)
+[Custom anchor 2](#testing-custom-anchors-again)
