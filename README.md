@@ -395,8 +395,8 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ### Syntax Highlighting
 > [!NOTE]  
-> - [**GitHub's supported languages and keywords**](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) ("`name`" and "`aliases`" fields in the YAML file). GitHub uses [Linguist](https://github.com/github-linguist/linguist).
-> - [**GitLab's supported languages and keywords**](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers). GitLab uses [Rogue Ruby library](https://github.com/rouge-ruby/rouge).
+> - Link to [**GitHub's supported languages and keywords**](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml) ("`name`" and "`aliases`" fields in the YAML file). GitHub uses [Linguist](https://github.com/github-linguist/linguist).
+> - Link to [**GitLab's supported languages and keywords**](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers). GitLab uses [Rogue Ruby library](https://github.com/rouge-ruby/rouge).
 
 > <ins>**Syntax**</ins>  
 > Written in _Bash_  
@@ -578,19 +578,19 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 
 > <ins>**Syntax**</ins>  
 > ```
-> GitHub's limitation leaves these supported models in common:
+> GitHub's limitation leaves the following supported models in common:
 > - `#FF0000` HEX.
 > - `rgb(0,255,0)` RGB.
 > - `rgba(0,255,0,0.3)` RGB with transparency (alpha).
-> - `hsl(540,70%,50%)` HSL with wrapping (Red value > 360) and percentage.
+> - `hsl(540,70%,50%)` HSL with wrapping (Hue value > 360) and percentage.
 > ```
 
 > <ins>**Output**</ins>  
-> GitHub's limitation leaves these supported models in common:
+> GitHub's limitation leaves the following supported models in common:
 > - `#FF0000` HEX.
 > - `rgb(0,255,0)` RGB.
 > - `rgba(0,255,0,0.3)` RGB with transparency (alpha).
-> - `hsl(540,70%,50%)` HSL with wrapping (Red value > 360) and percentage.
+> - `hsl(540,70%,50%)` HSL with wrapping (Hue value > 360) and percentage.
 
 ## Collapsible Sections
 
