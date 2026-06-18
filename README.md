@@ -608,26 +608,26 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 
 > ```
 > <details>
-> <summary>
+> 	<summary>
 > 
-> 	_Click here to expand_
+> 		_Click here to expand_
 > 
-> </summary>
+> 	</summary>
 > 
-> This collapsed section has a **Heading**.
+> 	This collapsed section has a **Heading**.
 > 
 > </details>
 > ```
 > 
 > ```
 > <details open>
-> <summary>
+> 	<summary>
 > 
-> 	_Click here to close_
+> 		_Click here to close_
 > 
-> </summary>
+> 	</summary>
 > 
-> This one is **open by default**.
+> 	This one is **open by default**.
 > 
 > </details>
 > ```
@@ -640,24 +640,24 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > </details>
 > 
 > <details>
-> <summary>
+> 	<summary>
 > 
-> 	_Click here to expand_
+> 		_Click here to expand_
 > 
-> </summary>
+> 	</summary>
 > 
-> This collapsed section has a **Heading**.
+> 	This collapsed section has a **Heading**.
 > 
 > </details>
 > 
 > <details open>
-> <summary>
+> 	<summary>
 > 
-> 	_Click here to close_
+> 		_Click here to close_
 > 
-> </summary>
+> 	</summary>
 > 
-> This one is **open by default**.
+> 	This one is **open by default**.
 > 
 > </details>
 
