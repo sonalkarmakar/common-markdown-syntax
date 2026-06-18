@@ -608,6 +608,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 
 > ```
 > <details>
+> 
 > <summary>
 > 
 > _Click here to expand_
@@ -621,6 +622,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 
 > ```
 > <details open>
+> 
 > <summary>
 > 
 > _Click here to close_
@@ -640,6 +642,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > </details>
 > 
 > <details>
+> 
 > <summary>
 > 
 > _Click here to expand_
@@ -651,6 +654,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > </details>
 > 
 > <details open>
+> 
 > <summary>
 > 
 > _Click here to close_
