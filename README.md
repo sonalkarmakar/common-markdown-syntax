@@ -597,33 +597,69 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 ---
 
 ## Collapsible Sections
-<ins>**Syntax**</ins>
+> <ins>**Syntax**</ins>  
+> ```
+> <details>
+> 
+> This is a _normal_ collapsed section.
+> 
+> </details>
+> ```
+> 
+> ```
+> <details>
+> <summary>
+> 
+> _Click here to expand_
+> 
+> </summary>
+> 
+> This collapsed section has a **Heading**.
+> 
+> </details>
+> ```
+> 
+> ```
+> <details open>
+> <summary>
+> 
+> _Click here to close_
+> 
+> </summary>
+> 
+> This one is **open by default**.
+> 
+> </details>
+> ```
 
-<details>
-
-**Line 1**
-*Line 2*
-</details>
-
-<details>
-<summary>_Heading_ Section
-</summary>
-
-**Line 1**
-*Line 2*
-</details>
-
-<details open>
-
-**Line 1**
-*Line 2*
-</details>
-
-<details open>
-<summary>Heading Section</summary>
-**Line 1**
-*Line 2*
-</details>
+> <ins>**Output**</ins>  
+> <details>
+> 
+> This is a _normal_ collapsed section.
+> 
+> </details>
+> 
+> <details>
+> <summary>
+> 
+> _Click here to expand_
+> 
+> </summary>
+> 
+> This collapsed section has a **Heading**.
+> 
+> </details>
+> 
+> <details open>
+> <summary>
+> 
+> _Click here to close_
+> 
+> </summary>
+> 
+> This one is **open by default**.
+> 
+> </details>
 
 ---
 
