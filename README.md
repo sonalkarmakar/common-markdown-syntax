@@ -633,33 +633,33 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > ```
 
 > <ins>**Output**</ins>  
-> <details>
-> 
-> This is a _normal_ collapsed section.
-> 
-> </details>
-> 
-> <details>
-> <summary>
-> 
-> _Click here to expand_
-> 
-> </summary>
-> 
-> This collapsed section has a **Heading**.
-> 
-> </details>
-> 
-> <details open>
-> <summary>
-> 
-> _Click here to close_
-> 
-> </summary>
-> 
-> This one is **open by default**.
-> 
-> </details>
+<details>
+
+This is a _normal_ collapsed section.
+
+</details>
+
+<details>
+<summary>
+
+_Click here to expand_
+
+</summary>
+
+This collapsed section has a **Heading**.
+
+</details>
+
+<details open>
+<summary>
+
+_Click here to close_
+
+</summary>
+
+This one is **open by default**.
+
+</details>
 
 ---
 
