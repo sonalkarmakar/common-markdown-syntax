@@ -571,6 +571,8 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 	| cell 4 is longer. | cell 5                                                                  | cell 6 is much longer than the others, but that's ok. It eventually wraps the text when the cell is too large for the display size. |
 > 	| cell 7            | This item has:<br>- Multiple items<br>- That we want listed separately. | cell 9                                                                                                                              |
 
+---
+
 ## Colour Chips
 > [!IMPORTANT]  
 > - GitHub supports rendering the colours only in _Issues_, _Pull Requests_, and _Discussions_. See [_example GitHub Issue_](https://github.com/sonalkarmakar/common-markdown-syntax/issues/1#issue-4530112807) of this project.
@@ -592,8 +594,38 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > - `rgba(0,255,0,0.3)` RGB with transparency (alpha).
 > - `hsl(540,70%,50%)` HSL with wrapping (Hue value > 360) and percentage.
 
+---
+
 ## Collapsible Sections
+<ins>**Syntax**</ins>
+
+<details>
+**Line 1**
+*Line 2*
+</details>
+
+<details>
+<summary>Heading Section</summary>
+**Line 1**
+*Line 2*
+</details>
+
+<details open>
+**Line 1**
+*Line 2*
+</details>
+
+<details open>
+<summary>Heading Section</summary>
+**Line 1**
+*Line 2*
+</details>
+
+---
 
 ## Mermaid Diagrams
+
+
+---
 
 ## LaTeX Mathematic Expressions
