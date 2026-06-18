@@ -599,7 +599,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 ## Collapsible Sections
 > [!IMPORTANT]  
 > - For text written _after_ any supported _HTML tags_, Markdown syntax are rendered **only when separated by an _empty line_**.  
-> - To remove the extra line in headings rendered in the examples below, write the heading in a **single line along with the `<summary>` tags**. However, the examples below work flawlessly in [GitLab](https://gitlab.com/sonalkarmakar/common-markdown-syntax#collapsible-sections).  
+> - To remove the _extra line_ in headings rendered in the examples below, write the heading in a **single line along with the `<summary>` tags**. However, the examples below work flawlessly in [GitLab](https://gitlab.com/sonalkarmakar/common-markdown-syntax#collapsible-sections).  
 
 > <ins>**Syntax**</ins>  
 > ```
