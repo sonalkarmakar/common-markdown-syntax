@@ -608,7 +608,11 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 
 > ```
 > <details>
-> <summary> _Click here to expand_ </summary>
+> <summary>
+> 
+> 	_Click here to expand_
+> 
+> </summary>
 > 
 > This collapsed section has a **Heading**.
 > 
@@ -617,7 +621,11 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 
 > ```
 > <details open>
-> <summary> _Click here to close_ </summary>
+> <summary>
+> 
+> 	_Click here to close_
+> 
+> </summary>
 > 
 > This one is **open by default**.
 > 
@@ -632,14 +640,22 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > </details>
 > 
 > <details>
-> <summary> _Click here to expand_ </summary>
+> <summary>
+> 
+> 	_Click here to expand_
+> 
+> </summary>
 > 
 > This collapsed section has a **Heading**.
 > 
 > </details>
 > 
 > <details open>
-> <summary> _Click here to close_ </summary>
+> <summary>
+> 
+> 	_Click here to close_
+> 
+> </summary>
 > 
 > This one is **open by default**.
 > 
