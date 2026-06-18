@@ -600,17 +600,21 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 <ins>**Syntax**</ins>
 
 <details>
+
 **Line 1**
 *Line 2*
 </details>
 
 <details>
-<summary>Heading Section</summary>
+<summary>_Heading_ Section
+</summary>
+
 **Line 1**
 *Line 2*
 </details>
 
 <details open>
+
 **Line 1**
 *Line 2*
 </details>
