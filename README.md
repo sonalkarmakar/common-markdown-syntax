@@ -678,9 +678,7 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > - Git Graph
 > 	```mermaid
 > 	---
-> 	title: Mermaid GitGraph Feature Showcase
-> 	config:
-> 	  theme: 'base'
+> 	title: Typical Git Usage in Large Projects
 > 	---
 > 	gitGraph LR:
 > 		commit id:"init" tag:"v0.1.0"
@@ -723,6 +721,9 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 
 > - Sequence Diagram
 > 	```mermaid
+> 	---
+> 	title: Git States of Project Files
+> 	---
 > 	sequenceDiagram
 > 		participant Untracked
 > 		participant Unmodified
