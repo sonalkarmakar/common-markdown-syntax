@@ -761,6 +761,7 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 	````
 > 
 > - Sequence Diagram
+> 	````
 > 	```mermaid
 > 	sequenceDiagram
 > 		participant Untracked
