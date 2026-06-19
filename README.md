@@ -673,6 +673,31 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > <ins>**Output**</ins>  
 > - Flowchart
 > 	```mermaid
+> 	---
+> 	title: How to find a Leap Year?
+> 	config:
+> 	  flowchart:
+> 	    curve: monotoneX
+> 	---
+> 	flowchart LR
+> 		A([Start])
+> 		B[/What is the Year?/]
+> 		C{Is Year divisible<br>by 400?}
+> 		D[/Leap Year/]
+> 		E{Is Year divisible<br>by 100?}
+> 		F[/Not a Leap Year/]
+> 		G{Is Year divisible<br>by 4?}
+> 		H([Stop])
+> 	
+> 		A --> B --> C
+> 		C -->|Yes| D
+> 		C -->|No| E
+> 		E -->|Yes| F
+> 		E -->|No| G
+> 		G -->|Yes| D
+> 		G -->|No| F
+> 		D --> H
+> 		F --> H
 > 	```
 > 
 > - Git Graph
@@ -721,9 +746,6 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 
 > - Sequence Diagram
 > 	```mermaid
-> 	---
-> 	title: Git States of Project Files
-> 	---
 > 	sequenceDiagram
 > 		participant Untracked
 > 		participant Unmodified
@@ -731,20 +753,16 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		participant Staged
 > 	
 > 		Untracked ->> Staged: Add the file (git add ...)
-> 		Unmodified ->> Modified: Edit the file
+> 		Unmodified -->> Modified: Edit the file
 > 		Modified ->> Staged: Stage the file (git add ...)
-> 		Unmodified ->> Untracked: Remove the file (git rm ...)
+> 		Unmodified -->> Untracked: Remove the file (git rm ...)
 > 		Staged ->> Unmodified: Commit the file (git commit ...)
 > 	```
 > 
 > - Quadrant Chart
 > 	```mermaid
-> 	---
-> 	config:
-> 	  themeVariables:
-> 	    quadrant1TextFill: "ff0000"
-> 	---
 > 	quadrantChart
+> 		title To Do Or Not To Do?
 > 		x-axis Urgent --> Not Urgent
 > 		y-axis Not Important --> "Important"
 > 		quadrant-1 Delay
