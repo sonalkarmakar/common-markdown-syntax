@@ -838,6 +838,7 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		D --> H
 > 		F --> H
 > 	```
+> 
 > - Git Graph
 > 	```mermaid
 > 	---
@@ -881,6 +882,7 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		checkout develop
 > 		merge feature-reporting tag:"REPORTING"
 > 	```
+> 
 > - Pie Chart
 > 	```mermaid
 > 	pie showData
@@ -890,7 +892,7 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		"Noble Gases": 1.3
 > 		"Carbon Dioxide": 0.06
 > 	```
-> 	````
+> 
 > - Sequence Diagram
 > 	```mermaid
 > 	sequenceDiagram
@@ -905,6 +907,7 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		Unmodified -->> Untracked: Remove the file (git rm ...)
 > 		Staged ->> Unmodified: Commit the file (git commit ...)
 > 	```
+> 
 > - Quadrant Chart
 > 	```mermaid
 > 	quadrantChart
@@ -916,8 +919,8 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		quadrant-3 Delegate
 > 		quadrant-4 Don't
 > 	```
+> 
 > - XY Chart
-> 	````
 > 	```mermaid
 > 	---
 > 	config:
