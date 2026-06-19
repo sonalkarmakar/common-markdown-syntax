@@ -676,6 +676,7 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 	---
 > 	title: How to find a Leap Year?
 > 	config:
+> 	  layout: elk
 > 	  flowchart:
 > 	    curve: monotoneX
 > 	---
