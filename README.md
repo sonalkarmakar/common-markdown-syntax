@@ -633,8 +633,9 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 
 > This one is **open by default**.
 > 
-> </details>
+> </de````tails>
 > ```
+> ````
 
 > <ins>**Output**</ins>  
 > <details>
@@ -670,6 +671,144 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 ## Mermaid Diagrams
 All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are rendered in both GitHub and GitLab. Diagrams below are just a few examples.
 
+> <ins>**Syntax**</ins>  
+> - Flowchart
+> 	````
+> 	```mermaid
+> 	---
+> 	title: How to find a Leap Year?
+> 	config:
+> 	  flowchart:
+> 	    curve: monotoneX
+> 	---
+> 	flowchart LR
+> 		A([Start])
+> 		B[/What is the Year?/]
+> 		C{Is Year divisible<br>by 400?}
+> 		D[/Leap Year/]
+> 		E{Is Year divisible<br>by 100?}
+> 		F[/Not a Leap Year/]
+> 		G{Is Year divisible<br>by 4?}
+> 		H([Stop])
+> 	
+> 		A --> B --> C
+> 		C -->|Yes| D
+> 		C -->|No| E
+> 		E -->|Yes| F
+> 		E -->|No| G
+> 		G -->|Yes| D
+> 		G -->|No| F
+> 		D --> H
+> 		F --> H
+> 	```
+> 	````
+> 
+> - Git Graph
+> 	````
+> 	```mermaid
+> 	---
+> 	title: Typical Git Usage in Large Projects
+> 	---
+> 	gitGraph LR:
+> 		commit id:"init" tag:"v0.1.0"
+> 		commit id:"setup"
+> 		branch develop
+> 		checkout develop
+> 		commit id:"dev-1"
+> 		commit type:HIGHLIGHT id:"dev-2"
+> 		branch feature-auth
+> 		checkout feature-auth
+> 		commit id:"auth-1"
+> 		commit id:"auth-2" tag:"AUTH_READY"
+> 		checkout develop
+> 		merge feature-auth tag:"AUTH_MERGE"
+> 		branch hotfix-login
+> 		checkout hotfix-login
+> 		commit type:REVERSE id:"fix-1"
+> 		checkout main
+> 		commit id:"prod-1"
+> 		merge hotfix-login tag:"HOTFIX"checkout develop
+> 		merge hotfix-login
+> 		branch release-1.0
+> 		checkout release-1.0
+> 		commit id:"release-prep"
+> 		commit id:"release-test"
+> 		checkout main
+> 		merge release-1.0 tag:"v1.0.0"
+> 		checkout develop
+> 		commit id:"future-work"
+> 		branch feature-reporting
+> 		checkout feature-reporting
+> 		commit id:"report-1"
+> 		commit id:"report-2"
+> 		checkout main
+> 		cherry-pick id:"report-1"
+> 		checkout develop
+> 		merge feature-reporting tag:"REPORTING"
+> 	```
+> 	````
+> 
+> - Pie Chart
+> 	````
+> 	```mermaid
+> 	pie showData
+> 		title Composition of Dry Air by Mass
+> 		"Nitrogen": 75.5
+> 		"Oxygen": 23.14
+> 		"Noble Gases": 1.3
+> 		"Carbon Dioxide": 0.06
+> 	```
+> 	````
+> 
+> - Sequence Diagram
+> 	```mermaid
+> 	sequenceDiagram
+> 		participant Untracked
+> 		participant Unmodified
+> 		participant Modified
+> 		participant Staged
+> 	
+> 		Untracked ->> Staged: Add the file (git add ...)
+> 		Unmodified -->> Modified: Edit the file
+> 		Modified ->> Staged: Stage the file (git add ...)
+> 		Unmodified -->> Untracked: Remove the file (git rm ...)
+> 		Staged ->> Unmodified: Commit the file (git commit ...)
+> 	```
+> 	````
+> 
+> - Quadrant Chart
+> 	````
+> 	```mermaid
+> 	quadrantChart
+> 		title To Do Or Not To Do?
+> 		x-axis Urgent --> Not Urgent
+> 		y-axis Not Important --> "Important"
+> 		quadrant-1 Delay
+> 		quadrant-2 Do
+> 		quadrant-3 Delegate
+> 		quadrant-4 Don't
+> 	```
+> 	````
+> 
+> - XY Chart
+> 	````
+> 	```mermaid
+> 	---
+> 	config:
+> 	  xyChart:
+> 	    showDataLabel: true
+> 	---
+> 	xychart
+> 		title "Project Velocity Dashboard"
+> 	
+> 		x-axis ["Sprint 1", "Sprint 2", "Sprint 3", "Sprint 4", "Sprint 5", "Sprint 6"]
+> 		y-axis "Story Points" 0 --> 100
+> 	
+> 		bar [42, 55, 61, 70, 82, 88]
+> 		line [42, 48.5, 52.6, 57, 62, 66.3]
+> 	```
+> 	````
+
 > <ins>**Output**</ins>  
 > - Flowchart
 > 	```mermaid
@@ -699,7 +838,6 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		D --> H
 > 		F --> H
 > 	```
-> 
 > - Git Graph
 > 	```mermaid
 > 	---
@@ -743,7 +881,16 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		checkout develop
 > 		merge feature-reporting tag:"REPORTING"
 > 	```
-> 
+> - Pie Chart
+> 	```mermaid
+> 	pie showData
+> 		title Composition of Dry Air by Mass
+> 		"Nitrogen": 75.5
+> 		"Oxygen": 23.14
+> 		"Noble Gases": 1.3
+> 		"Carbon Dioxide": 0.06
+> 	```
+> 	````
 > - Sequence Diagram
 > 	```mermaid
 > 	sequenceDiagram
@@ -758,7 +905,6 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		Unmodified -->> Untracked: Remove the file (git rm ...)
 > 		Staged ->> Unmodified: Commit the file (git commit ...)
 > 	```
-> 
 > - Quadrant Chart
 > 	```mermaid
 > 	quadrantChart
@@ -770,8 +916,8 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		quadrant-3 Delegate
 > 		quadrant-4 Don't
 > 	```
-> 
 > - XY Chart
+> 	````
 > 	```mermaid
 > 	---
 > 	config:
