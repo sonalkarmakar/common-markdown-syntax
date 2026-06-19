@@ -680,59 +680,43 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 	---
 > 	title: Mermaid GitGraph Feature Showcase
 > 	config:
-> 		theme: 'base'
+> 	  theme: 'base'
 > 	---
 > 	gitGraph LR:
 > 		commit id:"init" tag:"v0.1.0"
-> 	
 > 		commit id:"setup"
-> 	
 > 		branch develop
 > 		checkout develop
-> 	
 > 		commit id:"dev-1"
 > 		commit type:HIGHLIGHT id:"dev-2"
-> 	
 > 		branch feature-auth
 > 		checkout feature-auth
 > 		commit id:"auth-1"
 > 		commit id:"auth-2" tag:"AUTH_READY"
-> 	
 > 		checkout develop
 > 		merge feature-auth tag:"AUTH_MERGE"
-> 	
 > 		branch hotfix-login
 > 		checkout hotfix-login
 > 		commit type:REVERSE id:"fix-1"
-> 	
 > 		checkout main
 > 		commit id:"prod-1"
-> 	
 > 		merge hotfix-login tag:"HOTFIX"
-> 	
 > 		checkout develop
 > 		merge hotfix-login
-> 	
 > 		branch release-1.0
 > 		checkout release-1.0
-> 	
 > 		commit id:"release-prep"
 > 		commit id:"release-test"
-> 	
 > 		checkout main
 > 		merge release-1.0 tag:"v1.0.0"
-> 	
 > 		checkout develop
 > 		commit id:"future-work"
-> 	
 > 		branch feature-reporting
 > 		checkout feature-reporting
 > 		commit id:"report-1"
 > 		commit id:"report-2"
-> 	
 > 		checkout main
 > 		cherry-pick id:"report-1"
-> 	
 > 		checkout develop
 > 		merge feature-reporting tag:"REPORTING"
 > 	```
@@ -756,8 +740,8 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 	```mermaid
 > 	---
 > 	config:
-> 		themeVariables:
-> 			quadrant1TextFill: "ff0000"
+> 	  themeVariables:
+> 	    quadrant1TextFill: "ff0000"
 > 	---
 > 	quadrantChart
 > 		x-axis Urgent --> Not Urgent
@@ -772,10 +756,10 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 	```mermaid
 > 	---
 > 	config:
-> 		xyChart:
-> 			showDataLabel: true
+> 	  xyChart:
+> 	    showDataLabel: true
 > 	---
-> 	xychart-beta
+> 	xychart
 > 		title "Project Velocity Dashboard"
 > 	
 > 		x-axis ["Sprint 1", "Sprint 2", "Sprint 3", "Sprint 4", "Sprint 5", "Sprint 6"]
