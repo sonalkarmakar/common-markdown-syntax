@@ -673,16 +673,15 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 
 - Using a ` ```math ` block:
 ```math
-x=\frac{-b\plusmn\sqrt{b^2-4ac}}{2a}
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
 ```
 
 - Separate line using inline `$$`: $$a^2+b^2=c^2$$
 
 - Separate line using a `$$...$$` block:
-
-	$$
-	a^2+b^2=c^2
-	$$
+$$
+a^2+b^2=c^2
+$$
 
 ---
 
