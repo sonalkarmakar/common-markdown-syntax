@@ -668,6 +668,23 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 
 ---
 
+## LaTeX Mathematic Expressions
+- Inline math: $`a^2+b^2=c^2`$.
+
+- Using a ` ```math ` block:
+```math
+x=\frac{-b\plusmn\sqrt{b^2-4ac} 2a}
+```
+
+- Separate line using inline `$$`: $$a^2+b^2=c^2$$
+
+- Separate line using a `$$...$$` block:
+$$
+a^2+b^2=c^2
+$$
+
+---
+
 ## Mermaid Diagrams
 All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are rendered in both GitHub and GitLab. Diagrams below are just a few examples.
 
@@ -937,7 +954,3 @@ All [Mermaid diagram types](https://mermaid.js.org/intro/#diagram-types) are ren
 > 		bar [42, 55, 61, 70, 82, 88]
 > 		line [42, 48.5, 52.6, 57, 62, 66.3]
 > 	```
-
----
-
-## LaTeX Mathematic Expressions
