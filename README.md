@@ -669,14 +669,27 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 ---
 
 ## LaTeX Mathematic Expressions
-- Inline math with `$`: $`a^2+b^2=c^2`$.
+> <ins>**Syntax**</ins>
+> ````
+> - Inline math with `$`: $`a^2+b^2=c^2`$.
+> 
+> - Enclosing with `$$`: $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+> 
+> - Using a ` ```math ` block:
+> ```math
+> \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+> ```
+> ````
 
-- Enclosing with `$$`: $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-
-- Using a ` ```math ` block:
-```math
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-```
+> <ins>**Output**</ins>
+> - Inline math with `$`: $`a^2+b^2=c^2`$.
+> 
+> - Enclosing with `$$`: $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+> 
+> - Using a ` ```math ` block:
+> ```math
+> \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+> ```
 
 ---
 
