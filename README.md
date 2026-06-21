@@ -669,16 +669,14 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 ---
 
 ## LaTeX Mathematic Expressions
-- Inline math: $`a^2+b^2=c^2`$.
+- Inline math with `$`: $`a^2+b^2=c^2`$.
+
+- Enclosing with `$$`: $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
 - Using a ` ```math ` block:
 ```math
-x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 ```
-
-- Inline with `$$`: $$F=G\frac{m_1m_2}{r}$$
-
-- Separate line using inline `\` and inline `$$`:\ $$a^2+b^2=c^2$$
 
 ---
 
