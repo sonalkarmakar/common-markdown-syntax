@@ -676,7 +676,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
 ```
 
-- Inline with `$$`: $$F=G\frac{m_1m_2 r}$$
+- Inline with `$$`: $$F=G\frac{m_1m_2} {r}$$
 
 - Separate line using inline `\` and inline `$$`:\ $$a^2+b^2=c^2$$
 
