@@ -669,6 +669,9 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 ---
 
 ## LaTeX Mathematic Expressions
+> [!NOTE]  
+> GitLab renders `$$` LaTeX expressions as a block in a separate line, but GitHub renders in the same line.
+
 > <ins>**Syntax**</ins>
 > ````
 > - Inline math with `$`: $`a^2+b^2=c^2`$.
