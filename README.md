@@ -594,6 +594,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > - To remove the _extra line_ in headings rendered in the examples below, write the heading in a **single line along with the `<summary>` tags**. However, the examples below work flawlessly in [GitLab](https://gitlab.com/sonalkarmakar/common-markdown-syntax#collapsible-sections).  
 
 > <ins>**Syntax**</ins>  
+> ````
 > ```
 > <details>
 > 
@@ -625,7 +626,7 @@ The rules above are used to to write this entire [Code Blocks](#code-blocks) sec
 > 
 > This one is **open by default**.
 > 
-> </de````tails>
+> </details>
 > ```
 > ````
 
