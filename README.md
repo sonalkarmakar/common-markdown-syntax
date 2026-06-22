@@ -256,10 +256,6 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > 	![Git Logo](./media/Git-Icon-1788C.png "Git Logo")
 > - Reisizing images
 > 	<img src="./media/Git-Icon-1788C.png" height="200" width="200" alt="The Git logo" title="Git Logo">
-> - Audio links
-> 	![Extinct?](./media/extinct.opus "Extinct?")
-> - Video links
-> 	![Sample Video](./media/markdown_video.mp4 "Sample video from GitLab")
 > ```
 
 > <ins>**Output**</ins>
@@ -267,10 +263,6 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 > 	![Git Logo](./media/Git-Icon-1788C.png "Git Logo")
 > - Reisizing images
 > 	<img src="./media/Git-Icon-1788C.png" height="200" width="200" alt="The Git logo" title="Git Logo">
-> - Audio links
-> 	![Extinct?](./media/extinct.opus "Extinct?")
-> - Video links
-> 	![Sample Video](./media/markdown_video.mp4 "Sample video from GitLab")
 
 ---
 
