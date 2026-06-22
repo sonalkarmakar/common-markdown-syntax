@@ -16,6 +16,35 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ---
 
+## Contents
+- [Headings](README#Headings)
+- [Line Breaks](<README#Line Breaks>)
+	- [Paragraphs](README#Paragraphs)
+	- [New Line](<README#New Line>)
+- [Emphasis / Styling](<README#Emphasis / Styling>)
+- [Horizontal Line](<README#Horizontal Line>)
+- [Lists](README#Lists)
+	- [Unordered Lists](<README#Unordered Lists>)
+	- [Ordered Lists](<README#Ordered Lists>)
+	- [Mixing List Types](<README#Mixing List Types>)
+- [Task Lists](<README#Task Lists>)
+- [Links](README#Links)
+	- [Custom Anchor Points](<README#Custom Anchor Points>)
+	- [Media Links](<README#Media Links>)
+- [Quote Blocks](<README#Quote Blocks>)
+- [Alert Blocks](<README#Alert Blocks>)
+- [Code Blocks](<README#Basic Code Block>)
+	- [Basic Code Block](<README#Basic Code Block>)
+	- [Syntax Highlighting](<README#Syntax Highlighting>)
+	- [Backtick Fencing](<README#Backtick Fencing>)
+- [Tables](README#Tables)
+- [Colour Chips](<README#Colour Chips>)
+- [Collapsible Sections](<README#Collapsible Sections>)
+- [LaTeX Mathematic Expressions](<README#LaTeX Mathematic Expressions>)
+- [Mermaid Diagrams](<README#Mermaid Diagrams>)
+
+---
+
 ## Headings
 > <ins>**Syntax**</ins>  
 > ```
