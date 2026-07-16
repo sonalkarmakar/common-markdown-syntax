@@ -505,7 +505,7 @@ I might add other platforms here, but I don't plan to seriously maintain any of 
 
 ### Backtick Fencing  
 - Minimum _3 backticks_ are required for a **code block**, _less_ will render as **inline code**.
-- Number of backticks **ending a section** <ins>_must match_</ins> the number of backticks **starting i**.
+- Number of backticks **ending a section** <ins>_must match_</ins> the number of backticks **starting it**.
 - Closest pair of matching backticks are considered a block. Meaning that a line of `N` backticks will create a block with the latest line before it that has `N` backticks.
 - Sections created with different number of backticks can be nested. A block marked with _3 backticks_ can be nested inside a block marked with _4 backticks_.
 
